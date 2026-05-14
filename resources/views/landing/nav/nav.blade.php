@@ -38,9 +38,14 @@
 
     {{-- Mobile Menu --}}
     <div x-show="open" 
+         x-cloak
+         @click.away="open = false"
          x-transition:enter="transition ease-out duration-200"
          x-transition:enter-start="opacity-0 scale-95"
          x-transition:enter-end="opacity-100 scale-100"
+         x-transition:leave="transition ease-in duration-100"
+         x-transition:leave-start="opacity-100 scale-100"
+         x-transition:leave-end="opacity-0 scale-95"
          class="md:hidden bg-white/95 backdrop-blur-lg border-b border-gray-100 shadow-2xl overflow-hidden">
         <div class="px-4 pt-4 pb-8 space-y-2">
             <a href="#product" @click="open = false" class="block px-4 py-3 text-lg font-bold text-fast-dark hover:bg-fast-blue/5 rounded-2xl uppercase tracking-tight">Product Print</a>
