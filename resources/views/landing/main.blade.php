@@ -13,14 +13,14 @@
             @include('landing.product.index')
         </div>
 
-        {{-- Why Fastprinting Creative (Values) --}}
-        <div id="values">
-            @include('landing.values.index')
-        </div>
-
         {{-- About Section --}}
         <div id="about">
             @include('landing.about.index')
+        </div>
+
+        {{-- Why Fastprinting Creative (Values) --}}
+        <div id="values">
+            @include('landing.values.index')
         </div>
 
         {{-- Sample Product Print --}}
