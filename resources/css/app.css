@@ -28,3 +28,7 @@
         @apply px-8 py-4 bg-linear-to-r from-fast-blue to-fast-green text-white font-bold rounded-full transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-fast-blue/20;
     }
 }
+
+[x-cloak] {
+    display: none !important;
+}
