@@ -5,8 +5,6 @@
     @include('landing.nav.nav')
 
     <main>
-        {{-- Hero Section --}}
-        @include('landing.hero.hero')
 
         {{-- Product Print Section --}}
         <div id="product">
