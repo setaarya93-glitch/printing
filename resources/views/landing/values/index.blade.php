@@ -1,4 +1,4 @@
-<section class="py-20 md:py-24 bg-fast-dark text-white overflow-hidden relative">
+<section class="py-20 md:py-24 bg-dark-blue text-white overflow-hidden relative">
     {{-- Background Glow --}}
     <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] md:w-[800px] h-[400px] md:h-[800px] bg-primary/10 rounded-full blur-[80px] md:blur-[120px]"></div>
 
@@ -51,7 +51,7 @@
                     </div>
                 </div>
                 {{-- Fast Badge --}}
-                <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-primary p-5 md:p-8 rounded-full border-4 md:border-[10px] border-fast-dark shadow-2xl animate-spin-slow">
+                <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-logo-green p-5 md:p-8 rounded-full border-4 md:border-[10px] border-dark-blue shadow-2xl animate-spin-slow">
                     <span class="text-2xl md:text-4xl">⚡</span>
                 </div>
             </div>

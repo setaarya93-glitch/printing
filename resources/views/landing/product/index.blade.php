@@ -1,8 +1,8 @@
-<section class="py-20 md:py-24 bg-gray-50" id="product" x-data="{ activeCategory: 'all', showAll: false }">
+<section class="py-20 md:py-24 bg-light-gray" id="product" x-data="{ activeCategory: 'all', showAll: false }">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12 md:mb-16">
             <h2 class="text-4xl md:text-5xl font-black text-fast-dark uppercase tracking-tighter mb-4">
-                Layanan <span class="gradient-text italic" style="transform: skewX(-10deg); display: inline-block;">Cetak Lengkap</span>
+                Layanan <span class="gradient-text italic pr-4" style="transform: skewX(-10deg); display: inline-block;">Cetak Lengkap</span>
             </h2>
             <p class="text-gray-500 font-medium max-w-2xl mx-auto text-sm md:text-base mb-10">
                 Solusi digital printing terlengkap untuk segala kebutuhan bisnis dan personal Anda.
@@ -10,31 +10,34 @@
 
             {{-- Filter Buttons (Single Horizontal Row) --}}
             <div class="relative mb-12">
-                <div class="flex overflow-x-auto hide-scrollbar gap-2 md:gap-4 pb-4 md:justify-center px-4 -mx-4 md:mx-0">
-                    @php
-                        $categories = [
-                            ['id' => 'all', 'label' => 'Semua'],
-                            ['id' => 'marketing', 'label' => 'Pemasaran & Promosi'],
-                            ['id' => 'packaging', 'label' => 'Pembungkusan & Label'],
-                            ['id' => 'stationery', 'label' => 'Dokumen & Kantor'],
-                            ['id' => 'merchandise', 'label' => 'Merchandise & Hadiah'],
-                            ['id' => 'large_format', 'label' => 'Cetakan Besar'],
-                        ];
-                    @endphp
+                <div class="overflow-x-auto hide-scrollbar pb-4">
+                    <div class="flex flex-nowrap gap-3 md:gap-4 px-6 w-max mx-auto">
+                        @php
+                            $categories = [
+                                ['id' => 'all', 'label' => 'Semua'],
+                                ['id' => 'marketing', 'label' => 'Pemasaran & Promosi'],
+                                ['id' => 'packaging', 'label' => 'Pembungkusan & Label'],
+                                ['id' => 'stationery', 'label' => 'Dokumen & Kantor'],
+                                ['id' => 'merchandise', 'label' => 'Merchandise & Hadiah'],
+                                ['id' => 'large_format', 'label' => 'Cetakan Besar'],
+                            ];
+                        @endphp
 
-                    @foreach($categories as $cat)
-                        <button 
-                            @click="activeCategory = '{{ $cat['id'] }}'; showAll = false"
-                            :class="activeCategory === '{{ $cat['id'] }}' ? 'bg-primary text-white shadow-lg shadow-primary/30 border-primary' : 'bg-white text-gray-500 border-gray-100 hover:border-primary/30'"
-                            class="flex-none px-5 py-2.5 md:px-8 md:py-3 rounded-full text-[10px] md:text-xs font-black uppercase tracking-widest border-2 transition-all duration-300 italic"
-                            style="transform: skewX(-10deg)"
-                        >
-                            {{ $cat['label'] }}
-                        </button>
-                    @endforeach
+                        @foreach($categories as $cat)
+                            <button 
+                                @click="activeCategory = '{{ $cat['id'] }}'; showAll = false"
+                                :class="activeCategory === '{{ $cat['id'] }}' ? 'bg-primary text-white shadow-lg shadow-primary/30 border-primary' : 'bg-white text-gray-500 border-gray-100 hover:border-primary/30'"
+                                class="flex-none px-6 py-2.5 md:px-10 md:py-3 rounded-full text-[10px] md:text-xs font-black uppercase tracking-widest border-2 transition-all duration-300 italic"
+                                style="transform: skewX(-10deg)"
+                            >
+                                {{ $cat['label'] }}
+                            </button>
+                        @endforeach
+                    </div>
                 </div>
                 {{-- Fade effect for scroll --}}
-                <div class="md:hidden absolute right-0 top-0 bottom-4 w-12 bg-linear-to-l from-gray-50 to-transparent pointer-events-none"></div>
+                <div class="md:hidden absolute right-0 top-0 bottom-4 w-16 bg-linear-to-l from-light-gray to-transparent pointer-events-none"></div>
+                <div class="md:hidden absolute left-0 top-0 bottom-4 w-16 bg-linear-to-r from-light-gray to-transparent pointer-events-none"></div>
             </div>
         </div>
 
@@ -84,7 +87,7 @@
                     <div class="relative h-32 md:h-48 overflow-hidden">
                         <img src="{{ $product['img'] }}" alt="{{ $product['title'] }}" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                         <div class="absolute top-2 right-2 md:top-4 md:right-4">
-                            <span class="bg-primary text-white text-[7px] md:text-xs font-black px-2 md:px-3 py-1 rounded-full shadow-lg italic uppercase tracking-widest" style="transform: skewX(-10deg)">
+                            <span class="bg-soft-green text-white text-[7px] md:text-xs font-black px-2 md:px-3 py-1 rounded-full shadow-lg italic uppercase tracking-widest" style="transform: skewX(-10deg)">
                                 {{ $product['price'] }}
                             </span>
                         </div>

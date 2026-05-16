@@ -1,9 +1,9 @@
-<section class="py-20 md:py-24 bg-gray-50 overflow-hidden">
+<section class="py-20 md:py-24 bg-light-gray overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 md:mb-16 gap-6 md:gap-8">
             <div class="max-w-xl text-center md:text-left">
                 <h2 class="text-4xl md:text-5xl font-black text-fast-dark uppercase tracking-tighter mb-4">
-                    Sampel <span class="gradient-text italic" style="transform: skewX(-10deg); display: inline-block;">Produk</span>
+                    Sampel <span class="gradient-text italic pr-4" style="transform: skewX(-10deg); display: inline-block;">Produk</span>
                 </h2>
                 <p class="text-gray-500 font-medium text-sm md:text-base">
                     Hasil nyata untuk klien nyata. Lihat kualitas pekerjaan kami di berbagai bahan dan format.
@@ -35,7 +35,7 @@
                 <div class="group relative overflow-hidden rounded-[24px] md:rounded-[32px] aspect-square shadow-sm">
                     <img src="{{ $sample['img'] }}" alt="{{ $sample['title'] }}" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                     <div class="absolute inset-0 bg-linear-to-t from-fast-dark/80 via-transparent to-transparent opacity-100 md:opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-4 md:p-8">
-                        <p class="text-[8px] md:text-xs font-black uppercase tracking-[0.2em] text-primary mb-1 md:border-b md:border-primary/30 md:pb-1 md:w-fit">{{ $sample['category'] }}</p>
+                        <p class="text-[8px] md:text-xs font-black uppercase tracking-[0.2em] text-soft-green mb-1 md:border-b md:border-soft-green/30 md:pb-1 md:w-fit">{{ $sample['category'] }}</p>
                         <h4 class="text-sm md:text-xl font-bold text-white uppercase tracking-tight leading-tight">{{ $sample['title'] }}</h4>
                     </div>
                 </div>

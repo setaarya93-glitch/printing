@@ -4,13 +4,13 @@
             <div class="order-2 lg:order-1 px-4 md:px-0">
                 <div class="relative">
                     <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=800&auto=format&fit=crop" alt="Tim Kreatif" class="rounded-[32px] md:rounded-[40px] shadow-2xl relative z-10 w-full h-[300px] md:h-auto object-cover">
-                    <div class="absolute -bottom-4 -right-4 md:-bottom-6 md:-right-6 w-24 h-24 md:w-32 md:h-32 bg-primary rounded-full z-20 flex items-center justify-center text-white font-black italic text-sm md:text-xl shadow-xl" style="transform: skewX(-10deg)">EST 2022</div>
+                    <div class="absolute -bottom-4 -right-4 md:-bottom-6 md:-right-6 w-24 h-24 md:w-32 md:h-32 bg-soft-green rounded-full z-20 flex items-center justify-center text-white font-black italic text-sm md:text-xl shadow-xl" style="transform: skewX(-10deg)">EST 2022</div>
                 </div>
             </div>
             <div class="order-1 lg:order-2 text-center lg:text-left">
                 <h2 class="text-[10px] md:text-xs font-black uppercase tracking-[0.3em] text-primary mb-4">Cerita Kami</h2>
                 <h3 class="text-4xl md:text-5xl font-black text-fast-dark uppercase tracking-tighter mb-8 leading-none">
-                    Mendefinisikan <br><span class="gradient-text italic" style="transform: skewX(-10deg); display: inline-block;">Standar Cetak</span>
+                    Mendefinisikan <br><span class="gradient-text italic pr-4" style="transform: skewX(-10deg); display: inline-block;">Standar Cetak</span>
                 </h3>
                 <div class="space-y-6 text-gray-500 font-medium text-base md:text-lg leading-relaxed max-w-xl mx-auto lg:mx-0">
                     <p>

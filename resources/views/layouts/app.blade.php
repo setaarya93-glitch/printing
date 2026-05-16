@@ -11,5 +11,6 @@
 </head>
 <body class="font-sans antialiased bg-white text-fast-dark overflow-x-hidden">
     @yield('content')
+    @include('components.whatsapp')
 </body>
 </html>
