@@ -10,9 +10,9 @@
                 </p>
             </div>
             <div class="flex justify-center md:justify-end">
-                <a href="#" class="inline-flex items-center space-x-2 font-black uppercase tracking-widest text-xs md:text-sm text-fast-dark hover:text-fast-blue transition-colors group">
+                <a href="#" class="inline-flex items-center space-x-2 font-black uppercase tracking-widest text-xs md:text-sm text-fast-dark hover:text-primary transition-colors group">
                     <span>Lihat Semua Karya</span>
-                    <div class="w-8 h-8 md:w-10 md:h-10 rounded-full bg-white flex items-center justify-center border border-gray-100 group-hover:bg-fast-blue group-hover:text-white transition-all">
+                    <div class="w-8 h-8 md:w-10 md:h-10 rounded-full bg-white flex items-center justify-center border border-gray-100 group-hover:bg-primary group-hover:text-white transition-all">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7-7 7"/></svg>
                     </div>
                 </a>
@@ -35,7 +35,7 @@
                 <div class="group relative overflow-hidden rounded-[24px] md:rounded-[32px] aspect-square shadow-sm">
                     <img src="{{ $sample['img'] }}" alt="{{ $sample['title'] }}" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                     <div class="absolute inset-0 bg-linear-to-t from-fast-dark/80 via-transparent to-transparent opacity-100 md:opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-4 md:p-8">
-                        <p class="text-[8px] md:text-xs font-black uppercase tracking-[0.2em] text-fast-green mb-1 md:border-b md:border-fast-green/30 md:pb-1 md:w-fit">{{ $sample['category'] }}</p>
+                        <p class="text-[8px] md:text-xs font-black uppercase tracking-[0.2em] text-primary mb-1 md:border-b md:border-primary/30 md:pb-1 md:w-fit">{{ $sample['category'] }}</p>
                         <h4 class="text-sm md:text-xl font-bold text-white uppercase tracking-tight leading-tight">{{ $sample['title'] }}</h4>
                     </div>
                 </div>

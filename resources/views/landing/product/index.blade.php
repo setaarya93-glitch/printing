@@ -25,7 +25,7 @@
                     @foreach($categories as $cat)
                         <button 
                             @click="activeCategory = '{{ $cat['id'] }}'; showAll = false"
-                            :class="activeCategory === '{{ $cat['id'] }}' ? 'bg-fast-blue text-white shadow-lg shadow-fast-blue/30 border-fast-blue' : 'bg-white text-gray-500 border-gray-100 hover:border-fast-blue/30'"
+                            :class="activeCategory === '{{ $cat['id'] }}' ? 'bg-primary text-white shadow-lg shadow-primary/30 border-primary' : 'bg-white text-gray-500 border-gray-100 hover:border-primary/30'"
                             class="flex-none px-5 py-2.5 md:px-8 md:py-3 rounded-full text-[10px] md:text-xs font-black uppercase tracking-widest border-2 transition-all duration-300 italic"
                             style="transform: skewX(-10deg)"
                         >
@@ -84,7 +84,7 @@
                     <div class="relative h-32 md:h-48 overflow-hidden">
                         <img src="{{ $product['img'] }}" alt="{{ $product['title'] }}" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                         <div class="absolute top-2 right-2 md:top-4 md:right-4">
-                            <span class="bg-fast-blue text-white text-[7px] md:text-xs font-black px-2 md:px-3 py-1 rounded-full shadow-lg italic uppercase tracking-widest" style="transform: skewX(-10deg)">
+                            <span class="bg-primary text-white text-[7px] md:text-xs font-black px-2 md:px-3 py-1 rounded-full shadow-lg italic uppercase tracking-widest" style="transform: skewX(-10deg)">
                                 {{ $product['price'] }}
                             </span>
                         </div>
@@ -95,7 +95,7 @@
                             {{ $product['title'] }}
                         </h3>
                         <div class="mt-auto">
-                            <a href="#" class="inline-flex items-center justify-center w-full bg-fast-dark hover:bg-fast-blue text-white rounded-lg md:rounded-xl py-1.5 md:py-3 text-[7px] md:text-[10px] font-black uppercase tracking-widest transition-all group/btn">
+                            <a href="#" class="inline-flex items-center justify-center w-full bg-fast-dark hover:bg-primary text-white rounded-lg md:rounded-xl py-1.5 md:py-3 text-[7px] md:text-[10px] font-black uppercase tracking-widest transition-all group/btn">
                                 <span>Pesan</span>
                                 <svg class="w-2 h-2 md:w-3 md:h-3 ml-1 md:ml-2 group-hover/btn:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7-7 7"/></svg>
                             </a>
@@ -109,7 +109,7 @@
         <div class="mt-12 text-center">
             <button 
                 @click="showAll = !showAll"
-                class="inline-flex items-center space-x-2 bg-white text-fast-dark px-10 py-4 rounded-full font-black uppercase tracking-widest border-2 border-gray-100 hover:border-fast-blue hover:text-fast-blue transition-all duration-300 shadow-sm italic"
+                class="inline-flex items-center space-x-2 bg-white text-fast-dark px-10 py-4 rounded-full font-black uppercase tracking-widest border-2 border-gray-100 hover:border-primary hover:text-primary transition-all duration-300 shadow-sm italic"
                 style="transform: skewX(-10deg)"
             >
                 <span x-text="showAll ? 'Sembunyikan Produk' : 'Lihat Semua Produk'"></span>

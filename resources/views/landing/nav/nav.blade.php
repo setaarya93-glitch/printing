@@ -6,19 +6,29 @@
         <div class="flex justify-between items-center">
             <div class="flex items-center">
                 <a href="#" class="flex flex-col items-start group">
-                    <span class="text-3xl font-black italic tracking-tighter text-fast-blue group-hover:text-fast-green transition-colors duration-300" style="transform: skewX(-10deg)">FAST</span>
-                    <div class="h-1 w-full bg-linear-to-r from-fast-blue to-fast-green mt-[-2px]"></div>
-                    <span class="text-[10px] font-bold tracking-[0.2em] uppercase text-fast-dark">Printing.Creative</span>
+                    <div class="flex items-center mb-[-6px]">
+                        {{-- Speed Lines --}}
+                        <div class="flex flex-col items-end gap-[3px] mr-1 mt-2">
+                            <div class="h-[1.5px] w-4 bg-fast-blue opacity-60"></div>
+                            <div class="h-[1.5px] w-7 bg-fast-blue opacity-80"></div>
+                            <div class="h-[1.5px] w-5 bg-fast-blue"></div>
+                            <div class="h-[1.5px] w-8 bg-fast-blue opacity-90"></div>
+                        </div>
+                        <span class="text-4xl font-black italic tracking-tighter text-fast-blue" style="transform: skewX(-15deg)">FAST</span>
+                    </div>
+                    <div class="bg-linear-to-r from-fast-blue to-fast-green px-4 py-1 ml-4 shadow-sm" style="transform: skewX(-20deg)">
+                        <span class="text-[8px] font-black tracking-[0.15em] uppercase text-white block italic" style="transform: skewX(20deg)">Printing.Creative</span>
+                    </div>
                 </a>
             </div>
             
             {{-- Desktop Menu --}}
             <div class="hidden md:flex items-center space-x-8">
-                <a href="#product" class="text-sm font-bold uppercase tracking-wider text-fast-dark hover:text-fast-blue transition-colors">Product Print</a>
-                <a href="#about" class="text-sm font-bold uppercase tracking-wider text-fast-dark hover:text-fast-blue transition-colors">About</a>
-                <a href="#values" class="text-sm font-bold uppercase tracking-wider text-fast-dark hover:text-fast-blue transition-colors">Why Fastprinting Creative</a>
-                <a href="#sample" class="text-sm font-bold uppercase tracking-wider text-fast-dark hover:text-fast-blue transition-colors">Sample Product Print</a>
-                <a href="#testimoni" class="text-sm font-bold uppercase tracking-wider text-fast-dark hover:text-fast-blue transition-colors">Testimoni Pelanggan</a>
+                <a href="#product" class="text-sm font-bold uppercase tracking-wider text-fast-dark hover:text-primary transition-colors">Product Print</a>
+                <a href="#about" class="text-sm font-bold uppercase tracking-wider text-fast-dark hover:text-primary transition-colors">About</a>
+                <a href="#values" class="text-sm font-bold uppercase tracking-wider text-fast-dark hover:text-primary transition-colors">Why Fastprinting Creative</a>
+                <a href="#sample" class="text-sm font-bold uppercase tracking-wider text-fast-dark hover:text-primary transition-colors">Sample Product Print</a>
+                <a href="#testimoni" class="text-sm font-bold uppercase tracking-wider text-fast-dark hover:text-primary transition-colors">Testimoni Pelanggan</a>
                 <a href="#" class="btn-primary py-2 px-6 text-sm">Pesan Sekarang</a>
             </div>
 
@@ -48,11 +58,11 @@
          x-transition:leave-end="opacity-0 scale-95"
          class="md:hidden bg-white/95 backdrop-blur-lg border-b border-gray-100 shadow-2xl overflow-hidden">
         <div class="px-4 pt-4 pb-8 space-y-2">
-            <a href="#product" @click="open = false" class="block px-4 py-3 text-lg font-bold text-fast-dark hover:bg-fast-blue/5 rounded-2xl uppercase tracking-tight">Product Print</a>
-            <a href="#about" @click="open = false" class="block px-4 py-3 text-lg font-bold text-fast-dark hover:bg-fast-blue/5 rounded-2xl uppercase tracking-tight">About</a>
-            <a href="#values" @click="open = false" class="block px-4 py-3 text-lg font-bold text-fast-dark hover:bg-fast-blue/5 rounded-2xl uppercase tracking-tight">Why Fastprinting Creative</a>
-            <a href="#sample" @click="open = false" class="block px-4 py-3 text-lg font-bold text-fast-dark hover:bg-fast-blue/5 rounded-2xl uppercase tracking-tight">Sample Product Print</a>
-            <a href="#testimoni" @click="open = false" class="block px-4 py-3 text-lg font-bold text-fast-dark hover:bg-fast-blue/5 rounded-2xl uppercase tracking-tight">Testimoni Pelanggan</a>
+            <a href="#product" @click="open = false" class="block px-4 py-3 text-lg font-bold text-fast-dark hover:bg-primary/5 rounded-2xl uppercase tracking-tight">Product Print</a>
+            <a href="#about" @click="open = false" class="block px-4 py-3 text-lg font-bold text-fast-dark hover:bg-primary/5 rounded-2xl uppercase tracking-tight">About</a>
+            <a href="#values" @click="open = false" class="block px-4 py-3 text-lg font-bold text-fast-dark hover:bg-primary/5 rounded-2xl uppercase tracking-tight">Why Fastprinting Creative</a>
+            <a href="#sample" @click="open = false" class="block px-4 py-3 text-lg font-bold text-fast-dark hover:bg-primary/5 rounded-2xl uppercase tracking-tight">Sample Product Print</a>
+            <a href="#testimoni" @click="open = false" class="block px-4 py-3 text-lg font-bold text-fast-dark hover:bg-primary/5 rounded-2xl uppercase tracking-tight">Testimoni Pelanggan</a>
             <a href="#" class="block w-full text-center btn-primary mt-6 py-4">Pesan Sekarang</a>
         </div>
     </div>
