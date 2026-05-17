@@ -86,11 +86,6 @@
                 >
                     <div class="relative h-32 md:h-48 overflow-hidden">
                         <img src="{{ $product['img'] }}" alt="{{ $product['title'] }}" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                        <div class="absolute top-2 right-2 md:top-4 md:right-4">
-                            <span class="bg-soft-green text-white text-[7px] md:text-xs font-black px-2 md:px-3 py-1 rounded-full shadow-lg italic uppercase tracking-widest" style="transform: skewX(-10deg)">
-                                {{ $product['price'] }}
-                            </span>
-                        </div>
                     </div>
 
                     <div class="p-3 md:p-6 flex-grow flex flex-col">
