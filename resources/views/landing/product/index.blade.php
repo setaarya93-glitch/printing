@@ -1,4 +1,4 @@
-<section class="py-20 md:py-24 bg-light-gray" id="product" x-data="{ activeCategory: 'all', showAll: false }">
+<section class="py-20 md:py-24 bg-light-gray" id="product" x-data="{ showAll: false }">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12 md:mb-16">
             <h2 class="text-4xl md:text-5xl font-black text-fast-dark uppercase tracking-tighter mb-4">
@@ -7,38 +7,6 @@
             <p class="text-gray-500 font-medium max-w-2xl mx-auto text-sm md:text-base mb-10">
                 Solusi digital printing terlengkap untuk segala kebutuhan bisnis dan personal Anda.
             </p>
-
-            {{-- Filter Buttons (Single Horizontal Row) --}}
-            <div class="relative mb-12">
-                <div class="overflow-x-auto hide-scrollbar pb-4">
-                    <div class="flex flex-nowrap gap-3 md:gap-4 px-6 w-max mx-auto">
-                        @php
-                            $categories = [
-                                ['id' => 'all', 'label' => 'Semua'],
-                                ['id' => 'marketing', 'label' => 'Pemasaran & Promosi'],
-                                ['id' => 'packaging', 'label' => 'Pembungkusan & Label'],
-                                ['id' => 'stationery', 'label' => 'Dokumen & Kantor'],
-                                ['id' => 'merchandise', 'label' => 'Merchandise & Hadiah'],
-                                ['id' => 'large_format', 'label' => 'Cetakan Besar'],
-                            ];
-                        @endphp
-
-                        @foreach($categories as $cat)
-                            <button 
-                                @click="activeCategory = '{{ $cat['id'] }}'; showAll = false"
-                                :class="activeCategory === '{{ $cat['id'] }}' ? 'bg-primary text-white shadow-lg shadow-primary/30 border-primary' : 'bg-white text-gray-500 border-gray-100 hover:border-primary/30'"
-                                class="flex-none px-6 py-2.5 md:px-10 md:py-3 rounded-full text-[10px] md:text-xs font-black uppercase tracking-widest border-2 transition-all duration-300 italic"
-                                style="transform: skewX(-10deg)"
-                            >
-                                {{ $cat['label'] }}
-                            </button>
-                        @endforeach
-                    </div>
-                </div>
-                {{-- Fade effect for scroll --}}
-                <div class="md:hidden absolute right-0 top-0 bottom-4 w-16 bg-linear-to-l from-light-gray to-transparent pointer-events-none"></div>
-                <div class="md:hidden absolute left-0 top-0 bottom-4 w-16 bg-linear-to-r from-light-gray to-transparent pointer-events-none"></div>
-            </div>
         </div>
 
         <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
@@ -78,7 +46,7 @@
 
             @foreach($products as $index => $product)
                 <div 
-                    x-show="(activeCategory === 'all' || activeCategory === '{{ $product['cat'] }}') && (showAll || {{ $index }} < 8)"
+                    x-show="showAll || {{ $index }} < 8"
                     x-transition:enter="transition ease-out duration-300"
                     x-transition:enter-start="opacity-0 scale-90"
                     x-transition:enter-end="opacity-100 scale-100"
@@ -116,13 +84,3 @@
         </div>
     </div>
 </section>
-
-<style>
-    .hide-scrollbar::-webkit-scrollbar {
-        display: none;
-    }
-    .hide-scrollbar {
-        -ms-overflow-style: none;
-        scrollbar-width: none;
-    }
-</style>
