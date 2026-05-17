@@ -12,7 +12,12 @@
             "dest": "/build/$1"
         },
         {
-            "handle": "filesystem"
+            "src": "/FOTO%20PRODUCT/(.*)",
+            "dest": "/FOTO PRODUCT/$1"
+        },
+        {
+            "src": "/FOTO PRODUCT/(.*)",
+            "dest": "/FOTO PRODUCT/$1"
         },
         {
             "src": "/(.*)",
