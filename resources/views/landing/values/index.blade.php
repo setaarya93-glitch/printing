@@ -32,7 +32,7 @@
                             </div>
                             <div>
                                 <h4 class="text-base md:text-lg font-bold uppercase tracking-tight">{{ $value['title'] }}</h4>
-                                <p class="text-gray-500 text-[10px] md:text-sm">{{ $value['desc'] }}</p>
+                                <p class="text-gray-400 text-sm md:text-base">{{ $value['desc'] }}</p>
                             </div>
                         </div>
                     @endforeach
