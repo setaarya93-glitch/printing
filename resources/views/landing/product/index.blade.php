@@ -12,35 +12,34 @@
         <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
             @php
                 $products = [
-                    // Pemasaran & Promosi
-                    ['cat' => 'marketing', 'title' => 'X-Banner / Roll-up', 'price' => 'Rp 85rb', 'img' => 'https://images.unsplash.com/photo-1586075010633-2470acfd8e8b?q=80&w=400&auto=format&fit=crop'],
-                    ['cat' => 'marketing', 'title' => 'Flyer / Brosur', 'price' => 'Rp 150rb', 'img' => 'https://images.unsplash.com/photo-1562654508-4c389886a11a?q=80&w=400&auto=format&fit=crop'],
-                    ['cat' => 'marketing', 'title' => 'Business Card', 'price' => 'Rp 45rb', 'img' => 'https://images.unsplash.com/photo-1589330273594-fade1ee91647?q=80&w=400&auto=format&fit=crop'],
-                    ['cat' => 'marketing', 'title' => 'Katalog / Booklet', 'price' => 'Rp 25rb', 'img' => 'https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=400&auto=format&fit=crop'],
-                    
-                    // Pembungkusan & Label
-                    ['cat' => 'packaging', 'title' => 'Sticker Produk', 'price' => 'Rp 25rb', 'img' => 'https://images.unsplash.com/photo-1572044162444-ad60f128bde3?q=80&w=400&auto=format&fit=crop'],
-                    ['cat' => 'packaging', 'title' => 'Kotak Custom', 'price' => 'Rp 5.5rb', 'img' => 'https://images.unsplash.com/photo-1595079676339-1534801ad6cf?q=80&w=400&auto=format&fit=crop'],
-                    ['cat' => 'packaging', 'title' => 'Paper Bag', 'price' => 'Rp 3.5rb', 'img' => 'https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=400&auto=format&fit=crop'],
-                    ['cat' => 'packaging', 'title' => 'Hang Tag', 'price' => 'Rp 15rb', 'img' => 'https://images.unsplash.com/photo-1606206591513-adbfdd0a9693?q=80&w=400&auto=format&fit=crop'],
-
-                    // Dokumen & Kantor
-                    ['cat' => 'stationery', 'title' => 'Notebook / Jurnal', 'price' => 'Rp 35rb', 'img' => 'https://images.unsplash.com/photo-1531346878377-a5be20888e57?q=80&w=400&auto=format&fit=crop'],
-                    ['cat' => 'stationery', 'title' => 'PVC ID Card', 'price' => 'Rp 15rb', 'img' => 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=400&auto=format&fit=crop'],
-                    ['cat' => 'stationery', 'title' => 'Buku Resit / NCR', 'price' => 'Rp 20rb', 'img' => 'https://images.unsplash.com/photo-1586281380349-632531db7ed4?q=80&w=400&auto=format&fit=crop'],
-                    ['cat' => 'stationery', 'title' => 'Sijil / Certificate', 'price' => 'Rp 10rb', 'img' => 'https://images.unsplash.com/photo-1589330273594-fade1ee91647?q=80&w=400&auto=format&fit=crop'],
-
-                    // Merchandise & Hadiah
-                    ['cat' => 'merchandise', 'title' => 'T-Shirt Custom', 'price' => 'Rp 85rb', 'img' => 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=400&auto=format&fit=crop'],
-                    ['cat' => 'merchandise', 'title' => 'Mug Seramik', 'price' => 'Rp 35rb', 'img' => 'https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?q=80&w=400&auto=format&fit=crop'],
-                    ['cat' => 'merchandise', 'title' => 'Tote Bag', 'price' => 'Rp 45rb', 'img' => 'https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=400&auto=format&fit=crop'],
-                    ['cat' => 'merchandise', 'title' => 'Keychain Acrylic', 'price' => 'Rp 12rb', 'img' => 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=400&auto=format&fit=crop'],
-
-                    // Cetakan Besar
-                    ['cat' => 'large_format', 'title' => 'Signage Kedai', 'price' => 'Rp 500rb', 'img' => 'https://images.unsplash.com/photo-1563906267088-b029e7101114?q=80&w=400&auto=format&fit=crop'],
-                    ['cat' => 'large_format', 'title' => 'Canvas Art', 'price' => 'Rp 120rb', 'img' => 'https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?q=80&w=400&auto=format&fit=crop'],
-                    ['cat' => 'large_format', 'title' => 'Custom Wallpaper', 'price' => 'Rp 75rb', 'img' => 'https://images.unsplash.com/photo-1615529328331-f8917597711f?q=80&w=400&auto=format&fit=crop'],
-                    ['cat' => 'large_format', 'title' => 'Standee Acrylic', 'price' => 'Rp 150rb', 'img' => 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop'],
+                    ['title' => 'Gantungan Kunci Akrilik UV', 'img' => 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=400&auto=format&fit=crop'],
+                    ['title' => 'Sticker Cutting', 'img' => 'https://images.unsplash.com/photo-1572044162444-ad60f128bde3?q=80&w=400&auto=format&fit=crop'],
+                    ['title' => 'Print A3+ Custom', 'img' => 'https://images.unsplash.com/photo-1561070791-26c113006238?q=80&w=400&auto=format&fit=crop'],
+                    ['title' => 'Buku', 'img' => 'https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=400&auto=format&fit=crop'],
+                    ['title' => 'Plakat Akrilik UV', 'img' => 'https://images.unsplash.com/photo-1534353436294-0dbd4bdac845?q=80&w=400&auto=format&fit=crop'],
+                    ['title' => 'Standee Akrilik UV', 'img' => 'https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?q=80&w=400&auto=format&fit=crop'],
+                    ['title' => 'Charm Akrilik UV', 'img' => 'https://images.unsplash.com/photo-1597843798165-27a1ee904323?q=80&w=400&auto=format&fit=crop'],
+                    ['title' => 'Photocard Holder Akrilik UV', 'img' => 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=400&auto=format&fit=crop'],
+                    ['title' => 'Poster', 'img' => 'https://images.unsplash.com/photo-1580136579312-94651dfd596d?q=80&w=400&auto=format&fit=crop'],
+                    ['title' => 'Flyer', 'img' => 'https://images.unsplash.com/photo-1562654508-4c389886a11a?q=80&w=400&auto=format&fit=crop'],
+                    ['title' => 'Banner', 'img' => 'https://images.unsplash.com/photo-1586075010633-2470acfd8e8b?q=80&w=400&auto=format&fit=crop'],
+                    ['title' => 'Calender', 'img' => 'https://images.unsplash.com/photo-1506784983877-45594efa4cbe?q=80&w=400&auto=format&fit=crop'],
+                    ['title' => 'Mug Sublime', 'img' => 'https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?q=80&w=400&auto=format&fit=crop'],
+                    ['title' => 'Tali Lanyard', 'img' => 'https://images.unsplash.com/photo-1628157582853-a796fa650a6a?q=80&w=400&auto=format&fit=crop'],
+                    ['title' => 'PVC ID Card', 'img' => 'https://images.unsplash.com/photo-1618005198143-e5283b519a7f?q=80&w=400&auto=format&fit=crop'],
+                    ['title' => 'Pin Button', 'img' => 'https://images.unsplash.com/photo-1551269901-5c5e14c25df7?q=80&w=400&auto=format&fit=crop'],
+                    ['title' => 'Pin Akrilik UV', 'img' => 'https://images.unsplash.com/photo-1563245372-f21724e3856d?q=80&w=400&auto=format&fit=crop'],
+                    ['title' => 'Pop Socket', 'img' => 'https://images.unsplash.com/photo-1584438784894-089d6a128f3e?q=80&w=400&auto=format&fit=crop'],
+                    ['title' => 'Tuding Ngaji Akrilik UV', 'img' => 'https://images.unsplash.com/photo-1606206591513-adbfdd0a9693?q=80&w=400&auto=format&fit=crop'],
+                    ['title' => 'Hangtag', 'img' => 'https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=400&auto=format&fit=crop'],
+                    ['title' => 'Akrilik Block 1 cm', 'img' => 'https://images.unsplash.com/photo-1618005198143-e5283b519a7f?q=80&w=400&auto=format&fit=crop'],
+                    ['title' => 'Photocard', 'img' => 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop'],
+                    ['title' => 'Handfan / Kipas Custom', 'img' => 'https://images.unsplash.com/photo-1528642463367-2253501d51a1?q=80&w=400&auto=format&fit=crop'],
+                    ['title' => 'Kartu Nama', 'img' => 'https://images.unsplash.com/photo-1589330273594-fade1ee91647?q=80&w=400&auto=format&fit=crop'],
+                    ['title' => 'Nota NCR', 'img' => 'https://images.unsplash.com/photo-1586281380349-632531db7ed4?q=80&w=400&auto=format&fit=crop'],
+                    ['title' => 'Phonestrap Akrilik UV', 'img' => 'https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?q=80&w=400&auto=format&fit=crop'],
+                    ['title' => 'Voucher / Kupon Undian Perforasi', 'img' => 'https://images.unsplash.com/photo-1554080353-a576cf803bda?q=80&w=400&auto=format&fit=crop'],
+                    ['title' => 'Tiket Gelang', 'img' => 'https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=400&auto=format&fit=crop'],
                 ];
             @endphp
 
