@@ -98,7 +98,7 @@
                             {{ $product['title'] }}
                         </h3>
                         <div class="mt-auto">
-                            <a href="#" class="inline-flex items-center justify-center w-full bg-fast-dark hover:bg-primary text-white rounded-lg md:rounded-xl py-1.5 md:py-3 text-[7px] md:text-[10px] font-black uppercase tracking-widest transition-all group/btn">
+                            <a href="https://wa.me/6285150769003?text=Halo%20Fastprinting%20Creative,%20saya%20mau%20pesan%20{{ urlencode($product['title']) }}" target="_blank" class="inline-flex items-center justify-center w-full bg-fast-dark hover:bg-primary text-white rounded-lg md:rounded-xl py-1.5 md:py-3 text-[7px] md:text-[10px] font-black uppercase tracking-widest transition-all group/btn">
                                 <span>Pesan</span>
                                 <svg class="w-2 h-2 md:w-3 md:h-3 ml-1 md:ml-2 group-hover/btn:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7-7 7"/></svg>
                             </a>

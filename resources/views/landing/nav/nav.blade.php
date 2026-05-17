@@ -29,7 +29,7 @@
                 <a href="#values" class="text-sm font-bold uppercase tracking-wider text-fast-dark hover:text-primary transition-colors">Why Fastprinting Creative</a>
                 <a href="#sample" class="text-sm font-bold uppercase tracking-wider text-fast-dark hover:text-primary transition-colors">Sample Product Print</a>
                 <a href="#testimoni" class="text-sm font-bold uppercase tracking-wider text-fast-dark hover:text-primary transition-colors">Testimoni Pelanggan</a>
-                <a href="#" class="btn-primary py-2 px-6 text-sm">Pesan Sekarang</a>
+                <a href="https://wa.me/6285150769003" target="_blank" class="btn-primary py-2 px-6 text-sm">Pesan Sekarang</a>
             </div>
 
             {{-- Mobile Button --}}
@@ -63,7 +63,7 @@
             <a href="#values" @click="open = false" class="block px-4 py-3 text-lg font-bold text-fast-dark hover:bg-primary/5 rounded-2xl uppercase tracking-tight">Why Fastprinting Creative</a>
             <a href="#sample" @click="open = false" class="block px-4 py-3 text-lg font-bold text-fast-dark hover:bg-primary/5 rounded-2xl uppercase tracking-tight">Sample Product Print</a>
             <a href="#testimoni" @click="open = false" class="block px-4 py-3 text-lg font-bold text-fast-dark hover:bg-primary/5 rounded-2xl uppercase tracking-tight">Testimoni Pelanggan</a>
-            <a href="#" class="block w-full text-center btn-primary mt-6 py-4">Pesan Sekarang</a>
+            <a href="https://wa.me/6285150769003" target="_blank" class="block w-full text-center btn-primary mt-6 py-4">Pesan Sekarang</a>
         </div>
     </div>
 </nav>

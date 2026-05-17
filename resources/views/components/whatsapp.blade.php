@@ -1,4 +1,4 @@
-<a href="https://wa.me/6281234567890" target="_blank" class="fixed bottom-6 right-6 z-[100] group">
+<a href="https://wa.me/6285150769003" target="_blank" class="fixed bottom-6 right-6 z-[100] group">
     <div class="flex items-center space-x-2">
         <span class="bg-white px-4 py-2 rounded-xl shadow-lg text-sm font-bold text-dark-gray opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             Hubungi Kami
