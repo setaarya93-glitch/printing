@@ -27,6 +27,7 @@ if (isset($_ENV['VERCEL']) || getenv('VERCEL')) {
         '/tmp/storage/framework/sessions',
         '/tmp/storage/framework/views',
         '/tmp/storage/app/public',
+        '/tmp/storage/bootstrap/cache',
     ];
     
     foreach ($requiredDirectories as $directory) {
@@ -34,6 +35,12 @@ if (isset($_ENV['VERCEL']) || getenv('VERCEL')) {
             mkdir($directory, 0755, true);
         }
     }
+
+    // Redirect bootstrap cache to writable /tmp
+    putenv('APP_PACKAGES_CACHE=/tmp/storage/bootstrap/cache/packages.php');
+    putenv('APP_SERVICES_CACHE=/tmp/storage/bootstrap/cache/services.php');
+    $_ENV['APP_PACKAGES_CACHE'] = '/tmp/storage/bootstrap/cache/packages.php';
+    $_ENV['APP_SERVICES_CACHE'] = '/tmp/storage/bootstrap/cache/services.php';
 }
 
 try {
