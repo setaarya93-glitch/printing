@@ -1,25 +1,25 @@
-<section class="py-20 md:py-24 bg-dark-blue text-white overflow-hidden relative">
+<section class="py-20 md:py-24 bg-dark-blue text-white overflow-hidden relative" id="values">
     {{-- Background Glow --}}
     <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] md:w-[800px] h-[400px] md:h-[800px] bg-primary/10 rounded-full blur-[80px] md:blur-[120px]"></div>
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div class="grid lg:grid-cols-2 gap-12 md:gap-20 items-center">
             <div class="text-center lg:text-left">
-                <h2 class="text-4xl md:text-6xl font-black uppercase tracking-tighter leading-tight mb-8">
-                    Mengapa <span class="gradient-text italic" style="transform: skewX(-10deg); display: inline-block;">Fastprinting</span> Creative?
+                <h2 class="text-4xl md:text-5xl font-black uppercase tracking-tighter leading-tight mb-8">
+                    Kenapa Harus Pilih <span class="gradient-text italic pr-4" style="transform: skewX(-10deg); display: inline-block;">FastPrinting</span> Creative?
                 </h2>
-                <p class="text-gray-400 text-base md:text-lg mb-10 md:mb-12 font-medium max-w-xl mx-auto lg:mx-0">
-                    Kami tidak hanya mencetak; kami mempercepat bisnis Anda dengan solusi yang tepat. Dibuat untuk ritme modern.
+                <p class="text-white/80 text-base md:text-lg mb-10 md:mb-12 font-medium max-w-xl mx-auto lg:mx-0">
+                    Kami menghadirkan standar cetak terbaik dengan mengutamakan kepraktisan, kecepatan, dan kualitas premium bagi Anda.
                 </p>
                 
                 <div class="grid sm:grid-cols-2 lg:grid-cols-1 gap-4 md:gap-6">
                     @php
                         $values = [
-                            ['title' => 'Service Excellent', 'desc' => 'Kepuasan Anda adalah prioritas utama kami, selalu.'],
-                            ['title' => 'Trust', 'desc' => 'Kemitraan yang andal berdasarkan transparansi.'],
-                            ['title' => 'Quality', 'desc' => 'Bahan premium dan teknologi cetak presisi tinggi.'],
-                            ['title' => 'Price Kompetitif', 'desc' => 'Hasil premium tanpa harga selangit.'],
-                            ['title' => 'Solusi yang Efisien', 'desc' => 'Alur kerja yang disederhanakan untuk kecepatan.'],
+                            ['title' => 'Pelayanan Responsif & Profesional', 'desc' => 'Mulai dari konsultasi, desain, pembayaran hingga pengiriman, kami selalu siap membantu dengan komunikasi yang cepat dan jelas.'],
+                            ['title' => 'Trusted oleh Ribuan Customer', 'desc' => 'Sejak 2022, dipercaya customer dari Yogyakarta hingga Singapore dengan pelayanan yang transparan dan bertanggung jawab.'],
+                            ['title' => 'Quality Control Terjamin', 'desc' => 'Setiap produk melewati proses pengecekan kualitas sebelum dikirim ke customer.'],
+                            ['title' => 'Harga Terjangkau & Kompetitif', 'desc' => 'Tersedia harga satuan maupun grosir dengan kualitas terbaik dan harga yang tetap ramah.'],
+                            ['title' => 'Proses Cepat & Praktis', 'desc' => 'Bisa ambil langsung ke workshop, instant delivery area Jogja, atau kirim via ekspedisi ke seluruh Indonesia.'],
                         ];
                     @endphp
 
@@ -31,8 +31,8 @@
                                 </div>
                             </div>
                             <div>
-                                <h4 class="text-base md:text-lg font-bold uppercase tracking-tight">{{ $value['title'] }}</h4>
-                                <p class="text-gray-400 text-sm md:text-base">{{ $value['desc'] }}</p>
+                                <h4 class="text-base md:text-lg font-bold uppercase tracking-tight text-white">{{ $value['title'] }}</h4>
+                                <p class="text-white/80 text-sm md:text-base mt-1">{{ $value['desc'] }}</p>
                             </div>
                         </div>
                     @endforeach
