@@ -36,4 +36,27 @@ if (isset($_ENV['VERCEL']) || getenv('VERCEL')) {
     }
 }
 
-require __DIR__ . '/../public/index.php';
+try {
+    require __DIR__ . '/../public/index.php';
+} catch (\Throwable $e) {
+    header("HTTP/1.1 500 Internal Server Error");
+    header("Content-Type: text/html; charset=utf-8");
+    echo "<html><head><title>Laravel Serverless Crash Report</title>";
+    echo "<style>body{font-family:sans-serif;background:#0f172a;color:#cbd5e1;padding:20px;line-height:1.6}h1{color:#f43f5e}h3{color:#38bdf8;border-bottom:1px solid #334155;padding-bottom:5px;margin-top:20px}pre{background:#1e293b;padding:15px;border-radius:8px;overflow-x:auto;color:#e2e8f0;border:1px solid #334155}hr{border:0;border-top:1px dashed #334155;margin:30px 0}</style></head><body>";
+    echo "<h1>Laravel Serverless Crash Report</h1>";
+    echo "<p>PHP Version: " . PHP_VERSION . "</p>";
+    
+    $current = $e;
+    $index = 1;
+    while ($current) {
+        echo "<h3>Exception #{$index}: " . get_class($current) . "</h3>";
+        echo "<p><strong>Message:</strong> " . htmlspecialchars($current->getMessage()) . "</p>";
+        echo "<p><strong>File:</strong> " . htmlspecialchars($current->getFile()) . " on line " . $current->getLine() . "</p>";
+        echo "<pre>" . htmlspecialchars($current->getTraceAsString()) . "</pre>";
+        echo "<hr>";
+        $current = $current->getPrevious();
+        $index++;
+    }
+    echo "</body></html>";
+    exit;
+}
