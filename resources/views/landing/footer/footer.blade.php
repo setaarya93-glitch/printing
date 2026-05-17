@@ -30,6 +30,12 @@
                             <path d="M15.9414 17.9633c.229-1.879-.981-3.077-4.1758-4.0969-1.548-.528-2.277-1.22-2.26-2.1719.065-1.056 1.048-1.825 2.352-1.85a5.2898 5.2898 0 0 1 2.8838.89c.116.072.197.06.263-.039.09-.145.315-.494.39-.62.051-.081.061-.187-.068-.281-.185-.1369-.704-.4149-.983-.5319a6.4697 6.4697 0 0 0-2.5118-.514c-1.909.008-3.4129 1.215-3.5389 2.826-.082 1.1629.494 2.1078 1.73 2.8278.262.152 1.6799.716 2.2438.892 1.774.552 2.695 1.5419 2.478 2.6969-.197 1.047-1.299 1.7239-2.818 1.7439-1.2039-.046-2.2878-.537-3.1278-1.19l-.141-.11c-.104-.08-.218-.075-.287.03-.05.077-.376.547-.458.67-.077.108-.035.168.045.234.35.293.817.613 1.134.775a6.7097 6.7097 0 0 0 2.8289.727 4.9048 4.9048 0 0 0 2.0759-.354c1.095-.465 1.8029-1.394 1.9449-2.554zM11.9986 1.4009c-2.068 0-3.7539 1.95-3.8329 4.3899h7.6657c-.08-2.44-1.765-4.3899-3.8328-4.3899zm7.8516 22.5981-.08.001-15.7843-.002c-1.074-.04-1.863-.91-1.971-1.991l-.01-.195L1.298 6.2858a.459.459 0 0 1 .45-.494h4.9748C6.8448 2.568 9.1607 0 11.9996 0c2.8388 0 5.1537 2.5689 5.2757 5.7898h4.9678a.459.459 0 0 1 .458.483l-.773 15.5883-.007.131c-.094 1.094-.979 1.9769-2.0709 2.0059z"/>
                         </svg>
                     </a>
+                    {{-- TikTok --}}
+                    <a href="https://www.tiktok.com/@fastprinting.creative" target="_blank" class="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-black transition-all hover:scale-110" title="TikTok">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.02 1.59 4.23.85.99 2.0 1.69 3.25 1.97.02 1.34-.01 2.68-.01 4.02-1.55-.02-3.07-.63-4.22-1.69-.17-.16-.32-.34-.47-.52-.02 2.82.01 5.64-.01 8.46-.03 1.63-.52 3.28-1.52 4.57-1.33 1.83-3.66 2.86-5.92 2.76-2.58-.08-5.06-1.78-5.83-4.26-.95-2.79-.1-6.07 2.12-7.94 1.41-1.22 3.32-1.78 5.16-1.54.02 1.4.01 2.81.01 4.21-.99-.28-2.1-.11-2.91.56-.88.66-1.25 1.86-1.02 2.94.21.99 1.01 1.81 1.99 2.05.94.22 2.01-.1 2.59-.88.52-.66.69-1.54.67-2.37V.02z"/>
+                        </svg>
+                    </a>
                 </div>
             </div>
 
@@ -50,7 +56,7 @@
             <div class="flex flex-col items-center md:items-start">
                 <h4 class="text-white font-bold uppercase tracking-widest text-sm mb-6">Pesan Sekarang</h4>
                 <p class="text-white/90 text-sm mb-6 max-w-xs">Konsultasikan kebutuhan cetak Anda secara gratis melalui WhatsApp.</p>
-                <a href="https://wa.me/6285150769003" target="_blank" class="btn-primary w-full py-4 text-center text-sm shadow-xl shadow-primary/20">
+                <a href="https://wa.me/6285150769003" target="_blank" class="w-full py-4 text-center text-xs font-black uppercase tracking-widest rounded-full bg-logo-green hover:bg-[#20ba5c] text-white transition-all duration-300 hover:scale-105 shadow-xl shadow-logo-green/20" style="transform: skewX(-10deg)">
                     Mulai Chat WhatsApp
                 </a>
             </div>
