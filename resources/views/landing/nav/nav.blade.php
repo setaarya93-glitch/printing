@@ -5,7 +5,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center">
             <div class="flex items-center">
-                <a href="#" class="flex flex-col items-start group">
+                <a href="#" class="flex flex-col items-start group scale-75 origin-left sm:scale-90 md:scale-100 transition-transform">
                     <div class="flex items-center mb-[-6px]">
                         {{-- Speed Lines --}}
                         <div class="flex flex-col items-end gap-[3px] mr-1 mt-2">
