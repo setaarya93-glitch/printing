@@ -13,34 +13,35 @@
         <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
             @php
                 $products = [
-                    ['title' => 'Gantungan Kunci Akrilik UV', 'img' => 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=400&auto=format&fit=crop'],
-                    ['title' => 'Sticker Cutting', 'img' => 'https://images.unsplash.com/photo-1572044162444-ad60f128bde3?q=80&w=400&auto=format&fit=crop'],
-                    ['title' => 'Print A3+ Custom', 'img' => 'https://images.unsplash.com/photo-1561070791-26c113006238?q=80&w=400&auto=format&fit=crop'],
-                    ['title' => 'Buku', 'img' => 'https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=400&auto=format&fit=crop'],
-                    ['title' => 'Plakat Akrilik UV', 'img' => 'https://images.unsplash.com/photo-1534353436294-0dbd4bdac845?q=80&w=400&auto=format&fit=crop'],
-                    ['title' => 'Standee Akrilik UV', 'img' => 'https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?q=80&w=400&auto=format&fit=crop'],
-                    ['title' => 'Charm Akrilik UV', 'img' => 'https://images.unsplash.com/photo-1597843798165-27a1ee904323?q=80&w=400&auto=format&fit=crop'],
-                    ['title' => 'Photocard Holder Akrilik UV', 'img' => 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=400&auto=format&fit=crop'],
-                    ['title' => 'Poster', 'img' => 'https://images.unsplash.com/photo-1580136579312-94651dfd596d?q=80&w=400&auto=format&fit=crop'],
-                    ['title' => 'Flyer', 'img' => 'https://images.unsplash.com/photo-1562654508-4c389886a11a?q=80&w=400&auto=format&fit=crop'],
-                    ['title' => 'Banner', 'img' => 'https://images.unsplash.com/photo-1586075010633-2470acfd8e8b?q=80&w=400&auto=format&fit=crop'],
-                    ['title' => 'Calender', 'img' => 'https://images.unsplash.com/photo-1506784983877-45594efa4cbe?q=80&w=400&auto=format&fit=crop'],
-                    ['title' => 'Mug Sublime', 'img' => 'https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?q=80&w=400&auto=format&fit=crop'],
-                    ['title' => 'Tali Lanyard', 'img' => 'https://images.unsplash.com/photo-1628157582853-a796fa650a6a?q=80&w=400&auto=format&fit=crop'],
-                    ['title' => 'PVC ID Card', 'img' => 'https://images.unsplash.com/photo-1618005198143-e5283b519a7f?q=80&w=400&auto=format&fit=crop'],
-                    ['title' => 'Pin Button', 'img' => 'https://images.unsplash.com/photo-1551269901-5c5e14c25df7?q=80&w=400&auto=format&fit=crop'],
-                    ['title' => 'Pin Akrilik UV', 'img' => 'https://images.unsplash.com/photo-1563245372-f21724e3856d?q=80&w=400&auto=format&fit=crop'],
-                    ['title' => 'Pop Socket', 'img' => 'https://images.unsplash.com/photo-1584438784894-089d6a128f3e?q=80&w=400&auto=format&fit=crop'],
-                    ['title' => 'Tuding Ngaji Akrilik UV', 'img' => 'https://images.unsplash.com/photo-1606206591513-adbfdd0a9693?q=80&w=400&auto=format&fit=crop'],
-                    ['title' => 'Hangtag', 'img' => 'https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=400&auto=format&fit=crop'],
-                    ['title' => 'Akrilik Block 1 cm', 'img' => 'https://images.unsplash.com/photo-1618005198143-e5283b519a7f?q=80&w=400&auto=format&fit=crop'],
-                    ['title' => 'Photocard', 'img' => 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop'],
-                    ['title' => 'Handfan / Kipas Custom', 'img' => 'https://images.unsplash.com/photo-1528642463367-2253501d51a1?q=80&w=400&auto=format&fit=crop'],
-                    ['title' => 'Kartu Nama', 'img' => 'https://images.unsplash.com/photo-1589330273594-fade1ee91647?q=80&w=400&auto=format&fit=crop'],
-                    ['title' => 'Nota NCR', 'img' => 'https://images.unsplash.com/photo-1586281380349-632531db7ed4?q=80&w=400&auto=format&fit=crop'],
-                    ['title' => 'Phonestrap Akrilik UV', 'img' => 'https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?q=80&w=400&auto=format&fit=crop'],
-                    ['title' => 'Voucher / Kupon Undian Perforasi', 'img' => 'https://images.unsplash.com/photo-1554080353-a576cf803bda?q=80&w=400&auto=format&fit=crop'],
-                    ['title' => 'Tiket Gelang', 'img' => 'https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=400&auto=format&fit=crop'],
+                    ['title' => 'Ganci UV', 'file' => 'GANCI UV.jpeg'],
+                    ['title' => 'Sticker Die Cut', 'file' => 'STICKER DIE CUT.jpeg'],
+                    ['title' => 'Print A3', 'file' => 'PRINT A3.jpeg'],
+                    ['title' => 'Buku Custom', 'file' => 'BUKU CUSTOM.jpeg'],
+                    ['title' => 'Plakat UV Print', 'file' => 'PLAKAT UV PRINT.jpeg'],
+                    ['title' => 'Stande Akrilik UV', 'file' => 'STANDE AKRILIK UV.jpeg'],
+                    ['title' => 'Charm Akrilik', 'file' => 'CHARM AKRILIK.jpeg'],
+                    ['title' => 'Card Holder Akrilik UV', 'file' => 'CARD HOLDER AKRILIK UV.jpeg'],
+                    ['title' => 'Poster', 'file' => 'POSTER.jpeg'],
+                    ['title' => 'Flyer', 'file' => 'FLYER.jpeg'],
+                    ['title' => 'Banner', 'file' => 'BANNER 2.jpeg'],
+                    ['title' => 'Kalender', 'file' => 'KALENDER.jpeg'],
+                    ['title' => 'Mug', 'file' => 'MUG.jpeg'],
+                    ['title' => 'Lanyard', 'file' => 'LANYARD.jpeg'],
+                    ['title' => 'PVC ID Card', 'file' => 'PVC ID CARD.jpeg'],
+                    ['title' => 'Pin Button', 'file' => 'PIN BUTTON.jpeg'],
+                    ['title' => 'Pin Akrilik UV', 'file' => 'PIN AKRILIK UV.jpeg'],
+                    ['title' => 'Pop Socket Akrilik UV Print', 'file' => 'POP SOCKET AKRILIK UV PRINT.jpeg'],
+                    ['title' => 'Tuding Ngaji', 'file' => 'TUDING NGAJI.jpeg'],
+                    ['title' => 'Hang Tag', 'file' => 'HANG TAG.jpeg'],
+                    ['title' => 'Stande Block UV', 'file' => 'STANDE BLOCK UV.jpeg'],
+                    ['title' => 'Photocard', 'file' => 'PHOTOCARD.jpeg'],
+                    ['title' => 'Handfan', 'file' => 'HANDFAN.jpeg'],
+                    ['title' => 'Kartu Nama', 'file' => 'KARTU NAMA.jpeg'],
+                    ['title' => 'Nota NCR', 'file' => 'NOTA NCR.jpeg'],
+                    ['title' => 'Phonestrap', 'file' => 'PHONESTRAP.jpeg'],
+                    ['title' => 'Voucher Perforasi', 'file' => 'VOUCHER PERFORASI.jpeg'],
+                    ['title' => 'Notebook', 'file' => 'NOTEBOOK.jpeg'],
+                    ['title' => 'Mini Plakat UV', 'file' => 'MINI PLAKAT UV.jpeg'],
                 ];
             @endphp
 
@@ -49,7 +50,7 @@
                     x-transition:enter-start="opacity-0 scale-90" x-transition:enter-end="opacity-100 scale-100"
                     class="group bg-white rounded-[20px] md:rounded-[32px] overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 flex flex-col border border-gray-100">
                     <div class="relative h-32 md:h-48 overflow-hidden">
-                        <img src="{{ $product['img'] }}" alt="{{ $product['title'] }}"
+                        <img src="{{ asset('FOTO PRODUCT/' . $product['file']) }}" alt="{{ $product['title'] }}"
                             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                     </div>
 
