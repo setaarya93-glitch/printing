@@ -38,7 +38,7 @@
                     ['title' => 'Handfan', 'file' => 'HANDFAN.jpeg'],
                     ['title' => 'Kartu Nama', 'file' => 'KARTU NAMA.jpeg'],
                     ['title' => 'Nota NCR', 'file' => 'NOTA NCR.jpeg'],
-                    ['title' => 'Phonestrap', 'file' => 'PHONESTRAP.jpeg'],
+                    ['title' => 'Phonestrip', 'file' => 'PHONESTRIP.jpeg'],
                     ['title' => 'Voucher Perforasi', 'file' => 'VOUCHER PERFORASI.jpeg'],
                     ['title' => 'Notebook', 'file' => 'NOTEBOOK.jpeg'],
                     ['title' => 'Mini Plakat UV', 'file' => 'MINI PLAKAT UV.jpeg'],
