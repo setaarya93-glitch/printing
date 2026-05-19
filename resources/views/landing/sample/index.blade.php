@@ -10,7 +10,7 @@
             <div class="flex justify-center md:justify-end">
                 <a href="#"
                     class="inline-flex items-center space-x-2 font-black uppercase tracking-widest text-xs md:text-sm text-fast-dark hover:text-primary transition-colors group">
-                    <span>Lihat Semua Karya</span>
+                    <span>Produk Terlaris</span>
                     <div
                         class="w-8 h-8 md:w-10 md:h-10 rounded-full bg-white flex items-center justify-center border border-gray-100 group-hover:bg-primary group-hover:text-white transition-all">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
