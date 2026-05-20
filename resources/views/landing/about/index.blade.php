@@ -3,7 +3,7 @@
         <div class="grid lg:grid-cols-2 gap-12 md:gap-16 items-center">
             <div class="order-2 lg:order-1 px-4 md:px-0">
                 <div class="relative">
-                    <img src="/ABOUT/about.png"
+                    <img src="/ABOUT/about.jpg"
                         alt="Fast Printing Creative - Digital Printing Online Yogyakarta"
                         class="rounded-[32px] md:rounded-[40px] shadow-2xl relative z-10 w-full h-[300px] md:h-auto object-cover">
                     <div class="absolute -bottom-4 -right-4 md:-bottom-6 md:-right-6 w-24 h-24 md:w-32 md:h-32 bg-soft-green rounded-full z-20 flex items-center justify-center text-white font-black italic text-sm md:text-xl shadow-xl"
