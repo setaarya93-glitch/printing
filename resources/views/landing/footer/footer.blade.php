@@ -31,7 +31,7 @@
                         </svg>
                     </a>
                     {{-- TikTok --}}
-                    <a href="https://www.tiktok.com/@fastprinting.creative" target="_blank" class="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-black transition-all hover:scale-110" title="TikTok">
+                    <a href="https://www.tiktok.com/@fast.creativeprinting?_r=1&_t=ZS-96RzyccLhC4" target="_blank" class="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-black transition-all hover:scale-110" title="TikTok">
                         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                             <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.02 1.59 4.23.85.99 2.0 1.69 3.25 1.97.02 1.34-.01 2.68-.01 4.02-1.55-.02-3.07-.63-4.22-1.69-.17-.16-.32-.34-.47-.52-.02 2.82.01 5.64-.01 8.46-.03 1.63-.52 3.28-1.52 4.57-1.33 1.83-3.66 2.86-5.92 2.76-2.58-.08-5.06-1.78-5.83-4.26-.95-2.79-.1-6.07 2.12-7.94 1.41-1.22 3.32-1.78 5.16-1.54.02 1.4.01 2.81.01 4.21-.99-.28-2.1-.11-2.91.56-.88.66-1.25 1.86-1.02 2.94.21.99 1.01 1.81 1.99 2.05.94.22 2.01-.1 2.59-.88.52-.66.69-1.54.67-2.37V.02z"/>
                         </svg>
