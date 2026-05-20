@@ -1,7 +1,7 @@
 <section class="py-20 md:py-24 bg-light-gray overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 md:mb-16 gap-6 md:gap-8">
-            <div class="max-w-xl text-center md:text-left">
+        <div class="flex flex-col md:flex-row md:items-end md:justify-between mb-12 md:mb-16 gap-6 md:gap-8">
+            <div class="max-w-xl text-center">
                 <h2 class="text-4xl md:text-5xl font-black text-fast-dark uppercase tracking-tighter mb-4">
                 Produk<span class="gradient-text italic pr-4"
                     style="transform: skewX(-10deg); display: inline-block;">Terlaris</span>
@@ -10,7 +10,7 @@
                     Hasil nyata untuk klien nyata. Lihat kualitas pekerjaan kami di berbagai bahan dan format.
                 </p>
             </div>
-            <div class="flex justify-center md:justify-end">
+            <div class="flex justify-center">
                 <a href="#"
                     class="inline-flex items-center space-x-2 font-black uppercase tracking-widest text-xs md:text-sm text-fast-dark hover:text-primary transition-colors group">
                     <span>Lihat Semua Karya</span>
