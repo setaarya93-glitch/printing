@@ -12,16 +12,16 @@
             "dest": "/build/$1"
         },
         {
-            "src": "/about.jpg",
-            "dest": "/about.jpg"
-        },
-        {
             "src": "/TERLARIS/(.*)",
             "dest": "/TERLARIS/$1"
         },
         {
             "src": "/TESTI/(.*)",
             "dest": "/TESTI/$1"
+        },
+        {
+            "src": "/ABOUT/(.*)",
+            "dest": "/ABOUT/$1"
         },
         {
             "src": "/FOTO%20PRODUCT/(.*)",
