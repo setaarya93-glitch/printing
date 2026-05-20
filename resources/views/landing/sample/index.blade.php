@@ -2,7 +2,10 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 md:mb-16 gap-6 md:gap-8">
             <div class="max-w-xl text-center md:text-left">
-
+                <h2 class="text-4xl md:text-5xl font-black text-fast-dark uppercase tracking-tighter mb-4">
+                Produk<span class="gradient-text italic pr-4"
+                    style="transform: skewX(-10deg); display: inline-block;">Terlaris</span>
+            </h2>
                 <p class="text-gray-500 font-medium text-sm md:text-base">
                     Hasil nyata untuk klien nyata. Lihat kualitas pekerjaan kami di berbagai bahan dan format.
                 </p>
@@ -10,7 +13,7 @@
             <div class="flex justify-center md:justify-end">
                 <a href="#"
                     class="inline-flex items-center space-x-2 font-black uppercase tracking-widest text-xs md:text-sm text-fast-dark hover:text-primary transition-colors group">
-                    <span>Produk Terlaris</span>
+                    <span>Lihat Semua Karya</span>
                     <div
                         class="w-8 h-8 md:w-10 md:h-10 rounded-full bg-white flex items-center justify-center border border-gray-100 group-hover:bg-primary group-hover:text-white transition-all">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
