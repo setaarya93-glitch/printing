@@ -65,7 +65,7 @@
         {{-- Bottom --}}
         <div class="mt-12 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
             <p class="text-white/70 text-[10px] uppercase tracking-widest text-center">
-                &copy; 2026 FAST PRINTING.CREATIVE.
+                &copy; 2022 FAST PRINTING.CREATIVE.
             </p>
             <div class="flex space-x-6 text-white/70 text-[10px] font-bold uppercase tracking-widest">
                 <a href="#" class="hover:text-white transition-colors">Privasi</a>
