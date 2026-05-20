@@ -12,6 +12,14 @@
             "dest": "/build/$1"
         },
         {
+            "src": "/TERLARIS/(.*)",
+            "dest": "/TERLARIS/$1"
+        },
+        {
+            "src": "/TESTI/(.*)",
+            "dest": "/TESTI/$1"
+        },
+        {
             "src": "/FOTO%20PRODUCT/(.*)",
             "dest": "/FOTO PRODUCT/$1"
         },

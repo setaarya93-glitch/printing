@@ -14,19 +14,19 @@
             <div id="testimonial-carousel" class="flex overflow-x-auto snap-x snap-mandatory hide-scrollbar gap-6 pb-12 cursor-grab active:cursor-grabbing">
                 @php
                     $testimonials = [
-                        asset('TESTI/WhatsApp Image 2026-05-20 at 20.21.50 (1).jpeg'),
-                        asset('TESTI/WhatsApp Image 2026-05-20 at 20.21.50 (2).jpeg'),
-                        asset('TESTI/WhatsApp Image 2026-05-20 at 20.21.50 (3).jpeg'),
-                        asset('TESTI/WhatsApp Image 2026-05-20 at 20.21.50.jpeg'),
-                        asset('TESTI/WhatsApp Image 2026-05-20 at 20.21.51.jpeg'),
-                        asset('TESTI/WhatsApp Image 2026-05-20 at 20.21.52.jpeg'),
-                        asset('TESTI/WhatsApp Image 2026-05-20 at 20.21.53.jpeg'),
-                        asset('TESTI/WhatsApp Image 2026-05-20 at 20.21.54 (1).jpeg'),
-                        asset('TESTI/WhatsApp Image 2026-05-20 at 20.21.54 (2).jpeg'),
-                        asset('TESTI/WhatsApp Image 2026-05-20 at 20.21.54.jpeg'),
-                        asset('TESTI/WhatsApp Image 2026-05-20 at 20.21.55 (1).jpeg'),
-                        asset('TESTI/WhatsApp Image 2026-05-20 at 20.21.55.jpeg'),
-                        asset('TESTI/WhatsApp Image 2026-05-20 at 20.21.56.jpeg'),
+                        asset('TESTI/1.jpeg'),
+                        asset('TESTI/2.jpeg'),
+                        asset('TESTI/3.jpeg'),
+                        asset('TESTI/4.jpeg'),
+                        asset('TESTI/5.jpeg'),
+                        asset('TESTI/6.jpeg'),
+                        asset('TESTI/7.jpeg'),
+                        asset('TESTI/8.jpeg'),
+                        asset('TESTI/9.jpeg'),
+                        asset('TESTI/10.jpeg'),
+                        asset('TESTI/11.jpeg'),
+                        asset('TESTI/12.jpeg'),
+                        asset('TESTI/13.jpeg'),
                     ];
                 @endphp
 
