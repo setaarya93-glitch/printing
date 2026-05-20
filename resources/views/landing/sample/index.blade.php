@@ -27,27 +27,25 @@
         <div class="grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
             @php
                 $samples = [
-                    ['img' => 'https://images.unsplash.com/photo-1589330273594-fade1ee91647?q=80&w=800&auto=format&fit=crop', 'category' => 'Branding', 'title' => 'Kartu Nama Minimalis'],
-                    ['img' => 'https://images.unsplash.com/photo-1595079676339-1534801ad6cf?q=80&w=800&auto=format&fit=crop', 'category' => 'Packaging', 'title' => 'Desain Box Ramah Lingkungan'],
-                    ['img' => 'https://images.unsplash.com/photo-1586075010633-2470acfd8e8b?q=80&w=800&auto=format&fit=crop', 'category' => 'Prints', 'title' => 'Poster Event High-Gloss'],
-                    ['img' => 'https://images.unsplash.com/photo-1572044162444-ad60f128bde3?q=80&w=800&auto=format&fit=crop', 'category' => 'Marketing', 'title' => 'Kit Branding Perusahaan'],
-                    ['img' => 'https://images.unsplash.com/photo-1517816743773-6e0fd518b4a6?q=80&w=800&auto=format&fit=crop', 'category' => 'Merchandise', 'title' => 'Pakaian Cetak Custom'],
-                    ['img' => 'https://images.unsplash.com/photo-1526289037004-212f5f1a5ee9?q=80&w=800&auto=format&fit=crop', 'category' => 'Stickers', 'title' => 'Label Vinyl Vibrant'],
+                    asset('TERLARIS/WhatsApp Image 2026-05-20 at 20.22.15.jpeg'),
+                    asset('TERLARIS/WhatsApp Image 2026-05-20 at 20.22.16 (1).jpeg'),
+                    asset('TERLARIS/WhatsApp Image 2026-05-20 at 20.22.16.jpeg'),
+                    asset('TERLARIS/WhatsApp Image 2026-05-20 at 20.22.21.jpeg'),
+                    asset('TERLARIS/WhatsApp Image 2026-05-20 at 20.22.24.jpeg'),
+                    asset('TERLARIS/WhatsApp Image 2026-05-20 at 20.22.26 (1).jpeg'),
+                    asset('TERLARIS/WhatsApp Image 2026-05-20 at 20.22.26 (2).jpeg'),
+                    asset('TERLARIS/WhatsApp Image 2026-05-20 at 20.22.26.jpeg'),
+                    asset('TERLARIS/WhatsApp Image 2026-05-20 at 20.22.27 (1).jpeg'),
+                    asset('TERLARIS/WhatsApp Image 2026-05-20 at 20.22.27 (2).jpeg'),
+                    asset('TERLARIS/WhatsApp Image 2026-05-20 at 20.22.27.jpeg'),
+                    asset('TERLARIS/WhatsApp Image 2026-05-20 at 20.22.28.jpeg'),
                 ];
             @endphp
 
             @foreach($samples as $sample)
                 <div class="group relative overflow-hidden rounded-[24px] md:rounded-[32px] aspect-square shadow-sm">
-                    <img src="{{ $sample['img'] }}" alt="{{ $sample['title'] }}"
+                    <img src="{{ $sample }}" alt="Sample Terlaris Fastprinting Creative"
                         class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                    <div
-                        class="absolute inset-0 bg-linear-to-t from-fast-dark/80 via-transparent to-transparent opacity-100 md:opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-4 md:p-8">
-                        <p
-                            class="text-[8px] md:text-xs font-black uppercase tracking-[0.2em] text-soft-green mb-1 md:border-b md:border-soft-green/30 md:pb-1 md:w-fit">
-                            {{ $sample['category'] }}</p>
-                        <h4 class="text-sm md:text-xl font-bold text-white uppercase tracking-tight leading-tight">
-                            {{ $sample['title'] }}</h4>
-                    </div>
                 </div>
             @endforeach
         </div>
