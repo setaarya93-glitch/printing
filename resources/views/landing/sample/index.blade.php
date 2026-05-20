@@ -27,18 +27,18 @@
         <div class="grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
             @php
                 $samples = [
-                    asset('TERLARIS/1.jpeg'),
-                    asset('TERLARIS/2.jpeg'),
-                    asset('TERLARIS/3.jpeg'),
-                    asset('TERLARIS/4.jpeg'),
-                    asset('TERLARIS/5.jpeg'),
-                    asset('TERLARIS/6.jpeg'),
-                    asset('TERLARIS/7.jpeg'),
-                    asset('TERLARIS/8.jpeg'),
-                    asset('TERLARIS/9.jpeg'),
-                    asset('TERLARIS/10.jpeg'),
-                    asset('TERLARIS/11.jpeg'),
-                    asset('TERLARIS/12.jpeg'),
+                    '/TERLARIS/1.jpeg',
+                    '/TERLARIS/2.jpeg',
+                    '/TERLARIS/3.jpeg',
+                    '/TERLARIS/4.jpeg',
+                    '/TERLARIS/5.jpeg',
+                    '/TERLARIS/6.jpeg',
+                    '/TERLARIS/7.jpeg',
+                    '/TERLARIS/8.jpeg',
+                    '/TERLARIS/9.jpeg',
+                    '/TERLARIS/10.jpeg',
+                    '/TERLARIS/11.jpeg',
+                    '/TERLARIS/12.jpeg',
                 ];
             @endphp
 

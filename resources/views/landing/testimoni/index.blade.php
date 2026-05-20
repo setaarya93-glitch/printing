@@ -14,19 +14,19 @@
             <div id="testimonial-carousel" class="flex overflow-x-auto snap-x snap-mandatory hide-scrollbar gap-6 pb-12 cursor-grab active:cursor-grabbing">
                 @php
                     $testimonials = [
-                        asset('TESTI/1.jpeg'),
-                        asset('TESTI/2.jpeg'),
-                        asset('TESTI/3.jpeg'),
-                        asset('TESTI/4.jpeg'),
-                        asset('TESTI/5.jpeg'),
-                        asset('TESTI/6.jpeg'),
-                        asset('TESTI/7.jpeg'),
-                        asset('TESTI/8.jpeg'),
-                        asset('TESTI/9.jpeg'),
-                        asset('TESTI/10.jpeg'),
-                        asset('TESTI/11.jpeg'),
-                        asset('TESTI/12.jpeg'),
-                        asset('TESTI/13.jpeg'),
+                        '/TESTI/1.jpeg',
+                        '/TESTI/2.jpeg',
+                        '/TESTI/3.jpeg',
+                        '/TESTI/4.jpeg',
+                        '/TESTI/5.jpeg',
+                        '/TESTI/6.jpeg',
+                        '/TESTI/7.jpeg',
+                        '/TESTI/8.jpeg',
+                        '/TESTI/9.jpeg',
+                        '/TESTI/10.jpeg',
+                        '/TESTI/11.jpeg',
+                        '/TESTI/12.jpeg',
+                        '/TESTI/13.jpeg',
                     ];
                 @endphp
 
