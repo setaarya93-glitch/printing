@@ -9,7 +9,7 @@
                     <span class="text-[10px] font-bold tracking-[0.2em] uppercase text-white/90">Printing.Creative</span>
                 </a>
                 <p class="text-white/95 text-sm leading-relaxed mb-6 max-w-xs">
-                    Solusi cetak premium dan kreatif. Kami mempercepat visi brand Anda dengan kecepatan dan kualitas.
+                    Vendor untuk segala kebutuhan cetak anda.
                 </p>
                 <div class="flex space-x-4">
                     {{-- Instagram --}}
