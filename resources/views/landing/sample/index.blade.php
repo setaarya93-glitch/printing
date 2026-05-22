@@ -7,7 +7,7 @@
                         style="transform: skewX(-10deg); display: inline-block;">Terlaris</span>
                 </h2>
                 <p class="text-gray-500 font-medium text-sm md:text-base">
-                    Hasil nyata untuk klien nyata. Lihat kualitas pekerjaan kami di berbagai bahan dan format.
+                    Kami telah mencetak berbagai design dengan jumlah ribuan pcs gantungan kunci akrilik
                 </p>
             </div>
             <div class="flex justify-center md:justify-end">

@@ -4,9 +4,7 @@
             <h2 class="text-4xl md:text-5xl font-black text-fast-dark uppercase tracking-tighter mb-4">
                 Apa Kata <span class="gradient-text italic pr-4" style="transform: skewX(-10deg); display: inline-block;">Mereka</span>
             </h2>
-            <p class="text-gray-500 font-medium max-w-2xl mx-auto text-sm md:text-base">
-                Bukti nyata kualitas kami melalui lensa pelanggan.
-            </p>
+            
         </div>
 
         <div class="relative group">
