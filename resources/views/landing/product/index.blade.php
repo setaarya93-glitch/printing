@@ -15,6 +15,7 @@
                 $products = [
                     ['title' => 'Ganci UV', 'file' => 'GANCI UV.jpeg'],
                     ['title' => 'Sticker Die Cut', 'file' => 'STICKER DIE CUT.jpeg'],
+                    ['title' => 'Sticker Kiss Cut', 'file' => 'STICKER KISS CUT.jpeg'],
                     ['title' => 'Print A3', 'file' => 'PRINT A3.jpeg'],
                     ['title' => 'Buku Custom', 'file' => 'BUKU CUSTOM.jpeg'],
                     ['title' => 'Plakat UV Print', 'file' => 'PLAKAT UV PRINT.jpeg'],
